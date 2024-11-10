@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from 'react';
 import React from 'react';
 import { FiMenu } from 'react-icons/fi'; // Importing a menu icon
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                             <FiMenu className="text-white w-6 h-6 ml-2" />
                         </button>
                     </div>
-                    <p className="font-dancing text-white text-center">Hello! I'm Bakhtawar, a passionate frontend developer and video editor.</p>
+                    <p className="font-dancing text-white text-center">Hello! I&apos;m Bakhtawar, a passionate frontend developer and video editor.</p>
                 </div>
 
                 {/* Quick Links */}
@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
                 <div>
                     <h2 className="text-purple font-grover text-lg font-normal mb-2 text-center">Contact Me</h2>
                     <ul className="space-y-1 font-dancing text-white text-center">
-                        <li>Email:bakhtawarabbasi009@gmail.com</li>
+                        <li>Email: bakhtawarabbasi009@gmail.com</li>
                         <li>Address: North Karachi, Pakistan</li>
                     </ul>
                 </div>
