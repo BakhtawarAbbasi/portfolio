@@ -63,7 +63,7 @@ const aboutRef = useRef<HTMLDivElement>(null);
           transition={{ duration: 0.4, ease: 'easeOut' }}
         >
           <p className="mb-4 text-gray-400 text-sm md:text-base lg:text-lg">
-            Hello! I'm Bakhtawar, a passionate frontend developer and video editor. I specialize in creating visually stunning and user-friendly websites. With a strong background in both development and design, I bring a unique perspective to my work.
+            Hello! I am Bakhtawar, a passionate frontend developer and video editor. I specialize in creating visually stunning and user-friendly websites. With a strong background in both development and design, I bring a unique perspective to my work.
           </p>
           <p className="mb-5 text-gray-400 text-sm md:text-base lg:text-lg">
             My goal is to craft engaging experiences that not only look great but also function seamlessly. I have a deep interest in exploring the latest trends in web development and video editing. From coding dynamic interfaces to editing captivating videos, I enjoy every aspect of the creative process. Let's work together to bring your ideas to life!
