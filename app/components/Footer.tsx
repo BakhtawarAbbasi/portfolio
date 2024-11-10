@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import React from 'react';
 import { FiMenu } from 'react-icons/fi'; // Importing a menu icon
+import Image from 'next/image'; // Importing the optimized Image component
 
 const Footer: React.FC = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -66,7 +67,7 @@ const Footer: React.FC = () => {
                             aria-label="Facebook"
                             className="transform hover:scale-125 hover:rotate-6 hover:shadow-lg transition duration-300"
                         >
-                            <img src="/facebook-icon.png" alt="Facebook" className="w-8 h-8" />
+                            <Image src="/facebook-icon.png" alt="Facebook" width={32} height={32} />
                         </a>
                         <a
                             href="https://linkedin.com/in/bakhtawar-abbasi-59ba15304/"
@@ -75,7 +76,7 @@ const Footer: React.FC = () => {
                             aria-label="LinkedIn"
                             className="transform hover:scale-125 hover:-rotate-6 hover:shadow-lg transition duration-300"
                         >
-                            <img src="/linkedin-icon.png" alt="LinkedIn" className="w-8 h-8" />
+                            <Image src="/linkedin-icon.png" alt="LinkedIn" width={32} height={32} />
                         </a>
                         <a
                             href="https://instagram.com/bakhtawar5867/"
@@ -84,7 +85,7 @@ const Footer: React.FC = () => {
                             aria-label="Instagram"
                             className="transform hover:scale-125 hover:rotate-6 hover:shadow-lg transition duration-300"
                         >
-                            <img src="/instagrams.png" alt="Instagram" className="w-8 h-8" />
+                            <Image src="/instagrams.png" alt="Instagram" width={32} height={32} />
                         </a>
                         <a
                             href="https://github.com/BakhtawarAbbasi"
@@ -93,7 +94,7 @@ const Footer: React.FC = () => {
                             aria-label="GitHub"
                             className="transform hover:scale-125 hover:-rotate-6 hover:shadow-lg transition duration-300"
                         >
-                            <img src="/github-icon.png" alt="GitHub" className="w-8 h-8" />
+                            <Image src="/github-icon.png" alt="GitHub" width={32} height={32} />
                         </a>
                     </div>
                 </div>
