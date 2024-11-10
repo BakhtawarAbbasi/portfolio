@@ -51,21 +51,20 @@ const MainSection: React.FC = () => {
           </div>
           
           <h1 className="text-2xl md:text-5xl font-grover font-light text-white">
-            Hi! I'm Bakhtawar,{" "}
+            Hi! I&apos;m Bakhtawar,{" "}
             <span className="text-purple brightness-125">
               {text}
               <span className="blinking-cursor">|</span>
             </span>
           </h1>
           
-          <p className="text-gray-300 text-md md:text-base font-itim">Hello, I'm a frontend developer and video editor.</p>
+          <p className="text-gray-300 text-md md:text-base font-itim">Hello, I&apos;m a frontend developer and video editor.</p>
           
           <motion.button
             className="bg-transparent font-itim text-white border border-gray-300 py-2 px-5 rounded-full hover:bg-purple transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.2 }}
           > 
-            {/* Use HTML escape sequence for single quote */}
             <Link href="/contact">Let&apos;s Connect</Link>
           </motion.button>
         </motion.div>
