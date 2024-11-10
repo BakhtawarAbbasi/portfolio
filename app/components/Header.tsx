@@ -5,8 +5,9 @@ import Image from 'next/image';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
 const Header: React.FC = () => {
-const [navOpen, setNavOpen] = useState(false);
-const toggleNav = () => setNavOpen(!navOpen);
+  const [navOpen, setNavOpen] = useState(false);
+  const toggleNav = () => setNavOpen(!navOpen);
+
   return (
     <header className="bg-primary text-white px-4 py-2 md:px-8 md:py-4 font-itim">
       <div className="flex items-center justify-between">
@@ -22,7 +23,7 @@ const toggleNav = () => setNavOpen(!navOpen);
           <a href="#about" className="hover:text-purple hover:underline transition duration-300 mt-2">About</a>
           <a href="#skills" className="hover:text-purple hover:underline transition duration-300 mt-2">Skills</a>
           <a href="#projects" className="hover:text-purple hover:underline transition duration-300 mt-2">Projects</a>
-          <a href="#contact" className="bg-transparent border border-gray-300 py-2 px-5 rounded-full hover:bg-purple hover:text-white transition duration-300">Let's Connect</a>
+          <a href="#contact" className="bg-transparent border border-gray-300 py-2 px-5 rounded-full hover:bg-purple hover:text-white transition duration-300">Let&apos;s Connect</a>
         </nav>
 
         {/* Mobile Menu Icon */}
@@ -38,10 +39,11 @@ const toggleNav = () => setNavOpen(!navOpen);
           <Link href="#about" onClick={toggleNav} className="hover:text-purple hover:underline transition duration-300">About</Link>
           <Link href="#skills" onClick={toggleNav} className="hover:text-purple hover:underline transition duration-300">Skills</Link>
           <Link href="#projects" onClick={toggleNav} className="hover:text-purple hover:underline transition duration-300">Projects</Link>
-          <Link href="#contact" onClick={toggleNav} className="bg-transparent border border-gray-300 py-2 px-5 rounded-full hover:bg-purple hover:text-white transition duration-300 w-36">Let's Connect</Link>
+          <Link href="#contact" onClick={toggleNav} className="bg-transparent border border-gray-300 py-2 px-5 rounded-full hover:bg-purple hover:text-white transition duration-300 w-36">Let&apos;s Connect</Link>
         </nav>
       )}
     </header>
   );
 };
-export default Header; 
+
+export default Header;
