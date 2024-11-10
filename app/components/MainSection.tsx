@@ -65,6 +65,7 @@ const MainSection: React.FC = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.2 }}
           > 
+            {/* Use HTML escape sequence for single quote */}
             <Link href="/contact">Let&apos;s Connect</Link>
           </motion.button>
         </motion.div>
