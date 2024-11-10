@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'; // Import Image component
 
 type Project = {
   title: string;
@@ -15,21 +16,18 @@ const projects: Project[] = [
     link: "/projects/ecommerce",
     image: "/todo-list.png"
   },
-  
   {
     title: "Shareable Resume Builder",
     description: "A web app that allows users to create, edit, and share their resume.",
     link: "https://hackathon-milestone5-beta.vercel.app/",
     image: "/shareableResume.png"
   },
-
   {
     title: "Social Media Dashboard",
     description: "A dashboard to manage and track social media engagement and analytics.",
     link: "/projects/social-media-dashboard",
     image: "/todo-list.png"
   },
-  
   {
     title: "To-do List",
     description: "This Todo List app helps you manage and track your daily tasks, keeping you productive and organized. Easily add, update, and delete tasks to keep an overview of all your tasks in one place",
@@ -52,10 +50,12 @@ const ProjectsPage: React.FC = () => {
             key={index}
             className="bg-[#0B0D24] rounded-lg shadow-lg p-6 transform hover:scale-105 hover:shadow-2xl transition duration-300 hover:bg-[#1c2051]"
           >
-            <img
+            <Image
               src={project.image}
               alt={project.title}
-              className="w-full h-40 object-cover rounded-md mb-4 hover:opacity-90 transition-opacity duration-300"
+              width={400} // Add a suitable width
+              height={160} // Add a suitable height
+              className="object-cover rounded-md mb-4 hover:opacity-90 transition-opacity duration-300"
             />
             <h2 className="text-2xl font-semibold text-white font-dancing hover:text-purple-300 transition-colors duration-300">
               {project.title}
