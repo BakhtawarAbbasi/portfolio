@@ -27,6 +27,7 @@ export default function About() {
       observer.observe(aboutRef.current);
     }
 
+    // Store ref in a local variable for cleanup
     const currentRef = aboutRef.current;
     return () => {
       if (currentRef) {
