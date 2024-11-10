@@ -113,7 +113,7 @@ export const Contact: React.FC = () => {
                 aria-label="Instagram"
                 className="transform hover:scale-125 hover:rotate-6 hover:shadow-lg transition duration-300"
               >
-                <Image src="/instagram.png" alt="Instagram" width={32} height={32} className="w-8 h-8" />
+                <Image src="/instagrams.png" alt="Instagram" width={32} height={32} className="w-8 h-8" />
               </a>
               <a
                 href="https://github.com/BakhtawarAbbasi"
