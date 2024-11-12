@@ -23,10 +23,10 @@ const projects: Project[] = [
     image: "/shareableResume.png"
   },
   {
-    title: "Social Media Dashboard",
-    description: "A dashboard to manage and track social media engagement and analytics.",
-    link: "/projects/social-media-dashboard",
-    image: "/todo-list.png"
+    title: "Countdown Timer",
+    description: "This countdown timer app allows users to set time, start, pause, and reset, displaying the remaining time at all stages",
+    link: "https://vercel.com/bakhtawars-projects-ab28cde8/30-days-of-project/927dGzXSUnNUSh54YBZpkR94HYjo",
+    image: "/countdownTimer.png"
   },
   {
     title: "To-do List",
