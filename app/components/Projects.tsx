@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image'; 
+import Image from 'next/image'; // Import Image component
 
 type Project = {
   title: string;
@@ -13,13 +13,13 @@ const projects: Project[] = [
   {
     title: "E-commerce Website",
     description: "An online shopping platform with responsive design.",
-    link: "/https://hackathon-ecommerce-swart.vercel.app/",
+    link: "https://hackathon-ecommerce-swart.vercel.app/",
     image: "/e-commerce.png"
   },
   {
     title: "Shareable Resume Builder",
     description: "A web app that allows users to create, edit, and share their resume.",
-    link: "https://vercel.com/bakhtawars-projects-ab28cde8/hackathon-ecommerce/2758t7hwmq279q1apkM7fmuSodDk",
+    link: "https://hackathon-milestone5-beta.vercel.app/",
     image: "/shareableResume.png"
   },
   {
