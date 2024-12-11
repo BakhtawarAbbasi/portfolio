@@ -1,7 +1,7 @@
 "use client"; 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Image from 'next/image'; // Import Next.js Image component
+import Image from 'next/image'; 
 
 export const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement>(null);
@@ -34,8 +34,8 @@ export const Contact: React.FC = () => {
             <Image
               src="/contacts.jpg"
               alt="Contact Illustration"
-              width={240} // Adjust width as needed
-              height={240} // Adjust height as needed
+              width={240} 
+              height={240} 
               className="w-48 h-48 md:w-60 md:h-60 sm:w-20 sm:h-20 rounded-full object-cover border-2 border-lightPurple"
             />
           </div>

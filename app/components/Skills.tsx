@@ -26,7 +26,6 @@ const Skills: React.FC = () => {
       });
     }, { threshold: 0.5 });
 
-    // Store the current ref in a variable before using it
     const currentRef = skillsRef.current;
 
     if (currentRef) {
@@ -34,7 +33,6 @@ const Skills: React.FC = () => {
     }
 
     return () => {
-      // Use the stored ref during cleanup
       if (currentRef) {
         observer.unobserve(currentRef);
       }

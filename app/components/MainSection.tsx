@@ -17,17 +17,17 @@ const MainSection: React.FC = () => {
       const currentTitle = titles[index % titles.length];
       if (deleting) {
         setText(currentTitle.substring(0, text.length - 1));
-        setSpeed(100); // Speed up when deleting
+        setSpeed(100); 
       } else {
         setText(currentTitle.substring(0, text.length + 1));
-        setSpeed(200); // Slower when typing
+        setSpeed(200);
       }
 
       if (!deleting && text === currentTitle) {
-        setTimeout(() => setDeleting(true), 1000); // Pause before deleting
+        setTimeout(() => setDeleting(true), 1000); 
       } else if (deleting && text === "") {
         setDeleting(false);
-        setIndex((prev) => prev + 1); // Move to next title
+        setIndex((prev) => prev + 1); 
       }
     };
 

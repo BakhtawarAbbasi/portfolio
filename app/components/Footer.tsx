@@ -1,8 +1,8 @@
 "use client";
 import { useState } from 'react';
 import React from 'react';
-import { FiMenu } from 'react-icons/fi'; // Importing a menu icon
-import Image from 'next/image'; // Importing the optimized Image component
+import { FiMenu } from 'react-icons/fi'; 
+import Image from 'next/image'; 
 
 const Footer: React.FC = () => {
     const [showMenu, setShowMenu] = useState(false);
