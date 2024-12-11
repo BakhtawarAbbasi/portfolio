@@ -19,7 +19,7 @@ const projects: Project[] = [
   {
     title: "Shareable Resume Builder",
     description: "A web app that allows users to create, edit, and share their resume.",
-    link: "https://hackathon-milestone5-beta.vercel.app/",
+    link: "https://vercel.com/bakhtawars-projects-ab28cde8/hackathon-ecommerce/2758t7hwmq279q1apkM7fmuSodDk",
     image: "/shareableResume.png"
   },
   {
