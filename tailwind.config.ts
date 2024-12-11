@@ -26,7 +26,7 @@ const config: Config = {
       },
       animation: {
         blink: 'blink 1s steps(2, start) infinite',
-        fadeIn: 'fadeIn 0.5s ease-out forwards', // New fade-in animation
+        fadeIn: 'fadeIn 0.5s ease-out forwards', 
       },
       keyframes: {
         blink: {
