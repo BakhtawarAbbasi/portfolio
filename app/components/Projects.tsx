@@ -37,7 +37,7 @@ const projects: Project[] = [
 
 const ProjectsPage: React.FC = () => {
   return (
-    <section id="projects" className="min-h-screen py-10 px-5 md:px-10 bg-primary flex flex-col items-center">
+    <section id="projects" className="lg:min-h-screen py-10 px-5 md:px-10 bg-primary flex flex-col items-center">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-extrabold text-purple tracking-widest font-grover">My Projects</h1>
         <p className="text-gray-400 mt-4 font-itim">Explore some of the projects I’ve worked on.</p>

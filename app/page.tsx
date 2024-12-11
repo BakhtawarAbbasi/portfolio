@@ -1,4 +1,3 @@
-import Header from './components/Header';
 import MainSection from './components/MainSection';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -8,7 +7,6 @@ import Footer from './components/Footer';
 export default function Home() {
   return (
     <> 
-      <Header />
       <MainSection />
       <About/>
       <Skills/>
