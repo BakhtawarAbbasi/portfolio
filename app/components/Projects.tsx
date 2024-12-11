@@ -12,9 +12,9 @@ type Project = {
 const projects: Project[] = [
   {
     title: "E-commerce Website",
-    description: "An online shopping platform with secure payment integration and responsive design.",
-    link: "/projects/ecommerce",
-    image: "/todo-list.png"
+    description: "An online shopping platform with responsive design.",
+    link: "/https://hackathon-ecommerce-swart.vercel.app/",
+    image: "/e-commerce.png"
   },
   {
     title: "Shareable Resume Builder",
@@ -53,8 +53,8 @@ const ProjectsPage: React.FC = () => {
             <Image
               src={project.image}
               alt={project.title}
-              width={400} // Add a suitable width
-              height={160} // Add a suitable height
+              width={400} 
+              height={160} 
               className="object-cover rounded-md mb-4 hover:opacity-90 transition-opacity duration-300"
             />
             <h2 className="text-2xl font-semibold text-white font-dancing hover:text-purple-300 transition-colors duration-300">
