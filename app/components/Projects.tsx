@@ -25,13 +25,13 @@ const projects: Project[] = [
   {
     title: "Countdown Timer",
     description: "This countdown timer app allows users to set time, start, pause, and reset, displaying the remaining time at all stages",
-    link: "https://vercel.com/bakhtawars-projects-ab28cde8/30-days-of-project/927dGzXSUnNUSh54YBZpkR94HYjo",
+    link: "https://vercel.com/bakhtawars-projects-ab28cde8/30-days-of-project/5ahDLDBNBNcwnjms3GeP1tSv5JXe",
     image: "/countdownTimer.png"
   },
   {
     title: "To-do List",
     description: "This Todo List app helps you manage and track your daily tasks, keeping you productive and organized. Easily add, update, and delete tasks to keep an overview of all your tasks in one place",
-    link: "https://vercel.com/bakhtawars-projects-ab28cde8/todolist/9eqodcJzJQEkhwgQ6eWaHdCAdAFU",
+    link: "https://todolist-git-main-bakhtawars-projects-ab28cde8.vercel.app/",
     image: "/todo-list.png"
   }
 ];
