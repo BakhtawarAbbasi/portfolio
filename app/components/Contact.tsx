@@ -28,7 +28,7 @@ export const Contact: React.FC = () => {
   return (
     <section id="contact">
       <div className="lg:min-h-screen flex items-center justify-center bg-primary ">
-        <div className="bg-[#0B0D24] rounded-lg shadow-lg flex flex-col md:flex-row p-8 max-w-5xl w-full animate-fadeIn">
+        <div className="bg-[#0B0D24] rounded-lg shadow-lg flex flex-col md:flex-row p-8 max-w-5xl w-full animate-fadeIn pt-20">
           {/* Left Side Image */}
           <div className="flex-1 flex justify-center items-center mb-6 md:mb-0">
             <Image
