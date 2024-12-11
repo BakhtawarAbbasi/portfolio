@@ -13,7 +13,7 @@ const projects: Project[] = [
   {
     title: "E-commerce Website",
     description: "An online shopping platform with responsive design.",
-    link: "https://hackathon-ecommerce-swart.vercel.app/",
+    link: "https://hackathon-ecommerce-git-master-bakhtawars-projects-ab28cde8.vercel.app/",
     image: "/e-commerce.png"
   },
   {
