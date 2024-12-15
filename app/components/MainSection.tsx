@@ -65,7 +65,7 @@ const MainSection: React.FC = () => {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.2 }}
           >
-            <Link href="/contact">Let&apos;s Connect</Link>
+            <Link href="#contact">Let&apos;s Connect</Link>
           </motion.button>
         </motion.div>
 
