@@ -67,6 +67,7 @@ const ProjectsPage: React.FC = () => {
             </Link>
           </div>
         ))}
+        
       </div>
     </section>
   );
