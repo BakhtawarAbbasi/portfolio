@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
-const titles = ["Frontend Developer", "Video Editor", "UI/UX Designer"];
+const titles = ["Frontend Developer", "Digital Marketor", "UI/UX Designer"];
 
 const MainSection: React.FC = () => {
   const [text, setText] = useState("");
@@ -58,7 +58,7 @@ const MainSection: React.FC = () => {
             </span>
           </h1>
 
-          <p className="text-gray-300 2xl:pb-20 2xl:text-5xl md:text-base font-itim">Hello, I&apos;m a frontend developer and video editor.</p>
+          <p className="text-gray-300 2xl:pb-20 2xl:text-5xl md:text-base font-itim">Hello, I&apos;m a frontend developer and Digital Marketor.</p>
 
           <motion.button
             className="bg-transparent 2xl:pb-8 2xl:text-2xl  font-itim text-white border border-gray-300 py-2 px-5 rounded-full hover:bg-purple transition duration-300"

@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
                             <FiMenu className="text-white w-6 h-6 ml-2" />
                         </button>
                     </div>
-                    <p className="font-dancing text-white text-center">Hello! I&apos;m Bakhtawar, a passionate frontend developer and video editor.</p>
+                    <p className="font-dancing text-white text-center">Hello! I&apos;m Bakhtawar, a passionate frontend developer and Digital Marketor.</p>
                 </div>
 
                 {/* Quick Links */}

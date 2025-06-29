@@ -32,6 +32,12 @@ const projects: Project[] = [
     description: "This Todo List app helps you manage and track your daily tasks, keeping you productive and organized. Easily add, update, and delete tasks to keep an overview of all your tasks in one place",
     link: "https://todolist-git-main-bakhtawars-projects-ab28cde8.vercel.app/",
     image: "/todo-list.png"
+  },
+  {
+    title: "Food Website",
+    description: "Food Website using next.js and typescript",
+    link: "https://food-website-alpha-umber.vercel.app/",
+    image: "/food.PNG"
   }
 ];
 
