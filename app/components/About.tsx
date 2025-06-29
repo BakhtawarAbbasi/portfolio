@@ -76,10 +76,10 @@ export default function About() {
           transition={{ duration: 0.4, ease: 'easeOut' }}
         >
           <p className="mb-4 text-gray-400 text-sm md:text-base lg:text-lg">
-            Hello! I'm a passionate and detail oriented Frontend Developer and Digital Marketer with hands on experience in modern web technologies including HTML, CSS, JavaScript, TypeScript, Next.js, React and Tailwind CSS. I specialize in creating clean, responsive, and user-friendly interfaces. I also have a strong eye for design, with practical skills in Figma and Canva for UI/UX prototyping and branding materials.
+            Hello! I&apos;m a passionate and detail oriented Frontend Developer and Digital Marketer with hands on experience in modern web technologies including HTML, CSS, JavaScript, TypeScript, Next.js, React and Tailwind CSS. I specialize in creating clean, responsive, and user-friendly interfaces. I also have a strong eye for design, with practical skills in Figma and Canva for UI/UX prototyping and branding materials.
           </p>
           <p className="mb-5 text-gray-400 text-sm md:text-base lg:text-lg">
-            Additionally, I’m well-versed in Python for scripting and automation, and I bring value as a Digital Marketer, helping businesses grow through strategies in SEO, social media marketing, and paid ads. I’m dedicated to delivering high-quality results and turning your ideas into functional, impactful digital experiences.
+            Additionally, I&apos;m well-versed in Python for scripting and automation, and I bring value as a Digital Marketer, helping businesses grow through strategies in SEO, social media marketing, and paid ads. I&apos;m dedicated to delivering high-quality results and turning your ideas into functional, impactful digital experiences.
           </p>
 
           {/* Button Section */}
