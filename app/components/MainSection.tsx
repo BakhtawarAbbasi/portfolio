@@ -58,10 +58,12 @@ const MainSection: React.FC = () => {
             </span>
           </h1>
 
-          <p className="text-gray-300 2xl:pb-20 2xl:text-5xl md:text-base font-itim">Hello, I&apos;m a frontend developer and Digital Marketor.</p>
+          <p className="text-gray-300 2xl:pb-20 2xl:text-5xl md:text-base font-itim">
+            Hello, I&apos;m a frontend developer and Digital Marketor.
+          </p>
 
           <motion.button
-            className="bg-transparent 2xl:pb-8 2xl:text-2xl  font-itim text-white border border-gray-300 py-2 px-5 rounded-full hover:bg-purple transition duration-300"
+            className="bg-transparent 2xl:pb-8 2xl:text-2xl font-itim text-white border border-gray-300 py-2 px-5 rounded-full hover:bg-purple transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.2 }}
           >
@@ -69,14 +71,20 @@ const MainSection: React.FC = () => {
           </motion.button>
         </motion.div>
 
-        {/* Right Side: Profile Image */}
+        {/* Right Side: Profile Image (Hidden on small screens) */}
         <motion.div
-          className="flex justify-center md:justify-end"
+          className="hidden md:flex justify-center md:justify-end"
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1, delay: 0.2 }}
         >
-          <Image src="/profile.png" alt="Profile Image" width={300} height={300} className="rounded-full shadow-lg 2xl:w-[500px] 2xl:h-[700px]" />
+          <Image
+            src="/profile.png"
+            alt="Profile Image"
+            width={300}
+            height={300}
+            className="rounded-full shadow-lg 2xl:w-[500px] 2xl:h-[700px]"
+          />
         </motion.div>
 
       </section>

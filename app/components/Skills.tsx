@@ -46,7 +46,7 @@ const Skills: React.FC = () => {
   return (
     <section id="skills">
       <div ref={skillsRef} className="bg-[#0B0D24] pt-24 text-white min-h-screen flex items-center justify-center p-4">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-4 max-w-screen-xl p-4 sm:p-8">
+        <div className="grid grid-cols-2 gap-12 md:grid-cols-2 lg:grid-cols-4 max-w-screen-xl p-4 sm:p-8">
           <h2 className="font-grover col-span-full text-center text-3xl md:text-4xl lg:text-5xl font-extrabold mb-8 text-purple tracking-widest">
             Skills
           </h2>
