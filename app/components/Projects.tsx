@@ -22,6 +22,12 @@ const projects: Project[] = [
     image: "/shareableResume.png"
   },
   {
+    title: "Physical AI and Humanoid Robotics Book",
+    description: "A web app that allows users to read about physical AI and humanoid and robotics step by step and also have have a chatbot that help user for learning book",
+    link: "https://physical-ai-human-robotics-hackatho-ebon.vercel.app/",
+    image: "/book.png"
+  },
+  {
     title: "Countdown Timer",
     description: "This countdown timer app allows users to set time, start, pause, and reset, displaying the remaining time at all stages",
     link: "https://vercel.com/bakhtawars-projects-ab28cde8/30-days-of-project/5ahDLDBNBNcwnjms3GeP1tSv5JXe",
